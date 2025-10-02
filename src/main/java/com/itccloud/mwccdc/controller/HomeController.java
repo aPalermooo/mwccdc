@@ -33,4 +33,16 @@ public class HomeController {
 	public String business1(Model model) {
 		return "business1-form";
 	}
+	
+	@GetMapping("/bootstrap-home")
+	public String bootstrapHome(Model model) {
+		return "bootstrap-home-form";
+	}
+	
+	@GetMapping("/bootstrap-feature1")
+	public String bootstrapFeature1(Model model) {
+		return "bootstrap-feature1-form";
+	}
+	
+	
 }
